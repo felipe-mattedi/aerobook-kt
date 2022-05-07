@@ -11,6 +11,8 @@ fun main() {
     usuario.debita_milhas(5000)
     usuario.exibe_saldo()
     usuario.adiciona_trechos(3)
+    usuario.debita_trechos(1)
+    usuario.adiciona_trechos(3)
     usuario.transfere_milhas(6000, usuario_2)
     exibesaudacao(usuario)
     exibesaudacao(usuario_2)
